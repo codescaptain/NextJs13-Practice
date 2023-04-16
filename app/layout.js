@@ -10,7 +10,7 @@ const InterFontFamily = Inter({subsets: ['latin']});
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="tr" className={InterFontFamily.className}>
+    <html lang="en" className={InterFontFamily.className}>
       <body className="container">
       <Header />
         <main>{children}</main>

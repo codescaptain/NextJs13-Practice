@@ -6,7 +6,6 @@ import { Categories } from '@/components/categories'
 import { MoviesSection } from '@/components/movies-section'
 
 export default function HomeContainer({selectedCategory}) {
-  console.log(selectedCategory.movies);
   return (
     <div>
         <FeaturedMovie movie= {Movies.results[0]} />
